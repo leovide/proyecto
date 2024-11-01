@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Studio By Antonella Seriga</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="../Img/logo.png" alt="Logo">
+            <h1>By Antonella Seriga</h1>  
+        </div>       
+    <nav class="navbar-container">
+       <ul class="navbar-menu">
+        <li class="navbar-item"><a href="../index.html" class="navbar-link">Inicio</a></li>
+        <li class="navbar-item"><a href="../pages/nosotros.html" class="navbar-link">Quienes Somos</a></li>
+        <li class="navbar-item">
+            <a href="#" class="navbar-link">Servicios</a>
+            <ul class="navbar-drop">
+                <li class="navbar-item"><a href="../pages/facial.html" class="navbar-link">Faciales</a></li>
+                <li class="navbar-menu"><a href="../pages/corporal.html" class="navbar-link">Corporales</a></li>
+            </ul>
+         </li>
+        
+        <li class="navbar-item"><a href="../pages/ubicacion.html" class="navbar-link">Donde Estamos</a></li>
+        <li class="navbar-item"><a href="../pages/contacto.html" class="navbar-link">Contacto</a></li>
+       </ul>
+    </nav>
+
+</header>
+    <div class="container">
+        <div class="contact-form">
+            <h2>Formulario de Contacto</h2>
+            <form action="#contacto" method="post">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Tu nombre y apellido (requerido)" required>
+                    <input type="email" name="email" placeholder="Tu Email (requerido)" required>
+                </div>
+                <input type="text" name="subject" placeholder="Asunto (requerido)" required>
+                <textarea name="message" placeholder="Tu Consulta (requerido)" required></textarea>
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Info de Contacto</h2>
+            <ul>
+                <li><span>Whatsapp :</span> 11 2222 44444</li>
+                <li><span>Email :</span> beautyestudio@gmail.com</li>
+            </ul>
+            <h2>Donde Estamos</h2>
+            <ul>
+                <li><strong>Quilmes</strong> - Alberdi 113 (zona plaza Colon)<br>
+                    Horarios: Martes a Sábados 9:00 a 19:00 hs.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+<footer class="footer">
+    <div class="footer-contacto">
+        <h3>Contacto</h3>
+        <p>Email: <a href="beautyestudio@gmail.com" class="footer-link">info@gmail.com</a></p>
+    </div>
+    <div class="footer-social">
+        <h3>Seguinos</h3>
+        <a href="https://wa.me/1234567890" target="_blank" class="footer__link"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://instagram.com/tuperfil" target="_blank" class="footer__link"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://facebook.com/tuperfil" target="_blank" class="footer__link"><i class="fab fa-facebook"></i> Facebook</a>
+    </div>
+</footer>
+
+</body>
+</html>
